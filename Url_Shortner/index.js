@@ -5,7 +5,8 @@ const urlRoute =require('./routes/url')
 const connectToMongoDb=require('./connect')
 const URL=require("./models/url")
 
-connectToMongoDb('').then(()=> console.log("MongoDB connected")
+
+connectToMongoDb('mongodb+srv://shiva:a99jr8erSMuPbvSv@cluster0.n7eusza.mongodb.net/shortUrl').then(()=> console.log("MongoDB connected")
 );
 
 app.use(express.json());
@@ -39,8 +40,6 @@ app.get('/:shortId', async (req, res) => {
         res.status(500).send("Internal server error");
     }
 });
-
-
 
 
 app.listen(PORT,()=>{
