@@ -5,7 +5,7 @@ const urlRoute =require('./routes/url')
 const connectToMongoDb=require('./connect')
 const URL=require("./models/url")
 
-connectToMongoDb('mongodb+srv://shiva:a99jr8erSMuPbvSv@cluster0.n7eusza.mongodb.net/shortUrl').then(()=> console.log("MongoDB connected")
+connectToMongoDb('').then(()=> console.log("MongoDB connected")
 );
 
 app.use(express.json());
