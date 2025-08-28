@@ -1,0 +1,77 @@
+1.
+--post::--http://localhost:8000/url
+--with body in json format
+{
+    "url": "shiva-s-portfolio-ks.vercel.app"
+}
+o/p
+{
+    "id": "SVuwHliW7"
+}
+
+2.
+--Get::-http://localhost:8000/SVuwHliW7
+o/p
+
+<!doctype html><html lang="en"><head>    <meta charset="UTF-8" />    <link rel="icon" type="image/svg+xml" href="/assets/coding-CN6ht_zY.jpeg" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <title> Shiva's Portfolio</title>    <script type="module" crossorigin src="/assets/index-DrgDchPD.js"></script>    <link rel="stylesheet" crossorigin href="/assets/index-By0tB8YI.css"></head><body>    <div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/coding-CN6ht_zY.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Shiva's Portfolio</title>
+    <script type="module" crossorigin src="/assets/index-DrgDchPD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-By0tB8YI.css">
+
+Online
+
+3.
+Get:::-http://localhost:8000/url/analytics/SVuwHliW7
+o/p
+{
+    "totalClicks": 10,
+    "analytics": [
+        {
+            "timestamp": 1756343807639,
+            "_id": "68afadffa05aacfad61d39ed"
+        },
+        {
+            "timestamp": 1756344137204,
+            "_id": "68afaf49100e7bea1d94743f"
+        },
+        {
+            "timestamp": 1756344469186,
+            "_id": "68afb0955410cfcc89285287"
+        },
+        {
+            "timestamp": 1756344675591,
+            "_id": "68afb16316114a08d1c8b952"
+        },
+        {
+            "timestamp": 1756344691135,
+            "_id": "68afb17316114a08d1c8b957"
+        },
+        {
+            "timestamp": 1756344770052,
+            "_id": "68afb1c216114a08d1c8b95d"
+        },
+        {
+            "timestamp": 1756344850913,
+            "_id": "68afb2121634655ed2dabecc"
+        },
+        {
+            "timestamp": 1756344898695,
+            "_id": "68afb24245e2c941aacc36e5"
+        },
+        {
+            "timestamp": 1756345514077,
+            "_id": "68afb4aa2df3627b43ed9954"
+        },
+        {
+            "timestamp": 1756345520308,
+            "_id": "68afb4b02df3627b43ed995e"
+        }
+    ]
+}
